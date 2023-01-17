@@ -2,17 +2,12 @@
 #include <stdio.h>
 
 /**
- * main - check the code 
+ * main - check the code for Alx School students.
  *
- * Return: Always 0.
+ * Return: Always EXIT_SUCCESS.
  */
 int main(void)
 {
-    int n;
-
-    n = 402;
-    printf("n=%d\n", n);
-    reset_to_98(&n);
-    printf("n=%d\n", n);
-    return (0);
+	printf("%d\n", _strlen("Alx"));
+	return (EXIT_SUCCESS);
 }
